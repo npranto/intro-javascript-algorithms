@@ -5,11 +5,11 @@
  */
 let isPalindrome = (str) => {
     let originalWord = str
-                        .toLowerCase()
-                        .split('')
-                        .filter((char) => {
-                            return (char.length === 1) && (char.toLowerCase().match(/[a-z]/i));
-                        })
+        .toLowerCase()
+        .split('')
+        .filter((char) => {
+            return (char.length === 1) && (char.toLowerCase().match(/[a-z]/i));
+        })
     return originalWord.join('') === originalWord.reverse().join('');
 }
 
