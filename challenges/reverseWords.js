@@ -1,7 +1,7 @@
 /**
  *
  * @param str <String>
- * @returns <String
+ * @returns <String>
  */
 
 let reverseWords = (str) => {
