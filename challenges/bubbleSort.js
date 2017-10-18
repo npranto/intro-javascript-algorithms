@@ -6,6 +6,10 @@
 
 let bubbleSort = (arr) => {
 
+    let comparisonAlgorithm = (current, next) => {
+        return current > next;
+    }
+
     let swapValues = (current, next, currentIndex, arr) => {
         arr[currentIndex] = next;
         arr[currentIndex+1] = current;
@@ -15,11 +19,12 @@ let bubbleSort = (arr) => {
         for(let i=0; i<j; i++) {
             let current = arr[i];
             let next = arr[i+1];
-            if (current > next) {
+            if (comparisonAlgorithm(current, next)) {
                 swapValues(current, next, i, arr);
             }
         }
     }
+
     return arr;
 
 }
