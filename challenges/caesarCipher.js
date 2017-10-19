@@ -2,7 +2,7 @@
  *
  * @param str <String>
  * @param shifter <Integer>
- * @returns <String
+ * @returns <String>
  */
 let caesarCipher = (str, shifter) => {
 

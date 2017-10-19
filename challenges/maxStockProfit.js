@@ -5,20 +5,7 @@
  */
 
 let maxStockProfit = (arr) => {
-    if (arr.length < 2) return arr;
-    else {
-        let buyAt = arr[0];
-        let sellAt = arr[arr.length-1];
-        arr.forEach((currPrice) => {
-            if (currPrice < buyAt) {
-                buyAt = currPrice;
-            }
-            if (currPrice > sellAt) {
-                sellAt = currPrice;
-            }
-        })
-        return sellAt - buyAt;
-    }
+    // code
 }
 
 // examples

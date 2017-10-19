@@ -1,5 +1,5 @@
 /**
- * Check to see if a note text is a randon note of magazine text
+ * Check to see if a note text is a ranson note of magazine text
  * @param noteText <String>
  * @param magazineText <String>
  * @returns <Boolean>
