@@ -1,8 +1,5 @@
 /**
- * Print all numbers from 1 to num.
- * If a num is divisible by 3, print 'Fizz,' instead of that num.
- * If a num is divisible by 5, print 'Buzz,' instead of that num.
- * If a num is divisible by 3 and 5, print 'FizzBuzz,' instead of that num.
+ * Print all numbers from 1 to num. If a num is divisible by 3, print 'Fizz,' instead of that num. If a num is divisible by 5, print 'Buzz,' instead of that num. If a num is divisible by 3 and 5, print 'FizzBuzz,' instead of that num.
  * @param num <Integer>
  * @returns N/A
  */

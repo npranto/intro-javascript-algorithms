@@ -1,4 +1,4 @@
-/*
+/**
  * @param arr <Array>
  * @returns <Object>
  */
